@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Home"
+  },
+  {
+    "id": 2,
+    "title": "Tasks"
+  },
+  {
+    "id": 3,
+    "title": "Messages"
+  },
+  {
+    "id": 4,
+    "title": "Events"
+  }
+]
