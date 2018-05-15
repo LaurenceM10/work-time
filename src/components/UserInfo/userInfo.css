@@ -1,0 +1,16 @@
+.user-info {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-info__name {
+    color: #FFFFFF;
+    font-family: "Segoe UI";
+    font-size: 1.1em;
+    font-weight: 400;
+    margin: .5em;
+}
