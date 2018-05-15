@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Menu from '../Menu';
+import './nav.css';
 
 class Nav extends Component {
     constructor(...props){
@@ -8,7 +9,11 @@ class Nav extends Component {
 
     render() {
         return (
-            <Menu/>
+            <div className="nav">
+                <Menu/>
+            </div>
         );
     }
 }
+
+export default Nav;

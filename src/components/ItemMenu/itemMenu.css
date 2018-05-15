@@ -1,0 +1,18 @@
+.menu__item {
+    width: 100%;
+    padding: 1em .5em;
+    background: rgba(255, 255, 255, .1);
+    border-bottom: 1px solid  rgba(255, 255, 255, .2);
+    cursor: pointer;
+
+    color: #FFF;
+    font-size: 1em;
+    font-family: "Segoe UI";
+
+    transition: all .250s;
+}
+
+.menu__item:hover {
+    background: #FFFFFF;
+    color: #00d2ff;
+}

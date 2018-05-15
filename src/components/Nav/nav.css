@@ -1,0 +1,10 @@
+.nav {
+    width: 18%;
+    height: 100vh;
+    background: linear-gradient(#00d2ff, #007aff);
+    box-shadow: 1px 0 18px rgba(0, 79, 255, 0.55);
+
+    display: flex;
+    flex-direction: column;
+}
+
