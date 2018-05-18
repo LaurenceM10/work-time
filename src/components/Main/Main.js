@@ -5,16 +5,14 @@ import Nav from './../Nav';
 import ContentContainer from '../ContentContainer'
 
 class Main extends Component {
-    constructor() {
-        super();
-    }
-
     render() {
         return (
             <div className="main">
                 <Nav/>
-                <Header/>
-                <ContentContainer/>
+                <div class="main-column">
+                    <Header/>
+                    <ContentContainer/>
+                </div>
             </div>
         )
     }
