@@ -4,15 +4,29 @@
     background: rgba(255, 255, 255, .1);
     border-bottom: 1px solid rgba(255, 255, 255, .2);
     cursor: pointer;
-
-    color: #FFF;
     font-size: 1em;
     font-family: "Segoe UI";
-
     transition: all .250s;
 }
 
 .menu__item:hover {
-    background: #FFFFFF;
-    color: #00d2ff;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.menu__link {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 400;
+
+    transition: all .550s;
+}
+
+.menu__item:hover .menu__link {
+    /*color: #00d2ff;*/
+    text-shadow: 1px 1px 1px #007aff;
+    font-size: 1.03em;
+}
+
+.selected {
+    border-left: 4px solid #FFFFFF;
 }
